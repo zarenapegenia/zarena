@@ -4,7 +4,7 @@
 }
 body{
 	background-image: linear-gradient(rgba(0,0,0,0.75),
-	rgba(0,0,0,0.75)), url('images/authors.png');
+	rgba(0,0,0,0.75)), url('authors.png');
 	background-size: cover;
 	background-position: center;
     height: 100vh;	
