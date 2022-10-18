@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Volcanic Eruption Hazards</title>
+	<link rel="stylesheet" href="C:\Users\Zarena Pegenia\Documents\PETA\About.css">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="banner">
+     <img src="C:\Users\Zarena Pegenia\Documents\PETA\images\Logo.png" class="logo">
+	 <div class="banner-text">
+	     <h1>About</h1>
+		 <p>We, Alyanna Estrella, Zarena Pegenia, Ross Pendoza, and China Santiago from 11 ABM 3 
+		 are being tasked to create a website using HTML with the content about volcanic eruptions 
+		 hazards. This website contains information about what you should do before, during, and 
+		 after a volcanic eruption with the intent to help and spread awareness to people that may 
+		 be affected.</p>
+	 </div>
+</section>
+
+<div id="sideNav">
+    <nav>
+	<ul>
+	    <li><a href="C:\Users\Zarena Pegenia\Documents\PETA\hello.html">Home</a></li>
+		<li><a href="C:\Users\Zarena Pegenia\Documents\PETA\About.html">About</a></li>
+		<li><a href="C:\Users\Zarena Pegenia\Documents\PETA\How can we help you.html">How can we help you?</a></li><li>
+		<li><a href="C:\Users\Zarena Pegenia\Documents\PETA\References.html">References</a></li>
+		<li><a href="C:\Users\Zarena Pegenia\Documents\PETA\Authors.html">Authors</a></li>
+	</ul>
+	</nav>
+</div>
+
+<div id="menuBtn">
+    <img src="images/menu.png" id="menu">
+</div>
+
+<br>
+<br>
+<br>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+	    sideNav.style.right = "0";
+		menu.src = "images/close.png";
+	}
+	else{
+	    sideNav.style.right = "-250px";
+	    menu.src = "images/menu.png";
+	}
+}
+</script>
+
+</body>
+</html>
