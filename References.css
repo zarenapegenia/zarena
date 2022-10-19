@@ -94,19 +94,6 @@ nav ul li a{
 	width: 25px;
 	margin-top: 13px;
 }
-*--hi--*/
-#hi{
-	padding: 100px 0 20px;
-	background-color: #FEFEFE;
-}
-.hi-text{
-	padding: 0 20px;
-	text-align: center;
-	font-size: 15px;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 40px;
-}
 .banner-btn a:hover{
 	color: #000;	
 }
@@ -144,7 +131,9 @@ nav ul li a{
 	width: 25px;
 	margin-top: 13px;
 }
+
 *--hi--*/
+
 #hi{
 	padding: 100px 0 20px;
 	background-color: #FEFEFE;
